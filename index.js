@@ -8,7 +8,7 @@ const bodyParser=require("body-parser")
 async function connectToDb(){
   try{
      await mongo.connect("mongodb+srv://karthick:Karthick2004@cluster0.bn3vm7i.mongodb.net/ExpenseTracker?retryWrites=true&w=majority&appName=Cluster0")
-     app.listen(8093,()=>console.log("port activated"))
+     app.listen(process.env.PORT||8093,()=>console.log("port activated"))
   }
   catch(err){
      console.log(err)
