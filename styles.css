@@ -1,0 +1,28 @@
+p{
+    font-size:40px;
+    color:green;
+}
+.div{
+    border-style:solid;
+}
+#btn{
+    padding:6px;
+    margin-left:500px;
+    margin-top:10px;
+    color:blue;
+    background-color: beige;
+}
+#btn1{
+    height:44px;
+    width: 44px;
+    border-radius:50%;
+    background-color:green;
+    font-weight: 200;
+    color:white;
+    margin-left:500px;
+    margin-top:20px;
+
+}
+#timer{
+  display:flex;
+}
